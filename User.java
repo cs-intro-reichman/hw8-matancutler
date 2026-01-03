@@ -90,7 +90,7 @@
          {
             for(int j = 0; j < other.getfCount(); j++)
             {
-                if(follows[i] == other.follows[j]) counter++;
+                if(follows[i].equals(other.follows[j])) counter++;
             }
          }
         return counter;
