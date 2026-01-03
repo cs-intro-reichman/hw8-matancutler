@@ -88,6 +88,7 @@ public class Network {
      *  The user who appears the most in the follow lists of all the users. */
     public String mostPopularUser() {
         //// Replace the following statement with your code
+        if(userCount == 0) return null;
         int index = 0;
         int max = 0;
         for(int i = 0; i < userCount; i++)
